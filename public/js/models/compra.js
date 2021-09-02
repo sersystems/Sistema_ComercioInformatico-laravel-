@@ -1,0 +1,46 @@
+class Compra {
+
+    constructor(
+        id = 0,
+        estado = 'ACTIVO',
+        cbte_tipo = 'FAC-C',
+        cbte_tpv = '00002',
+        cbte_nro = '',
+        cbte_fecha = Date.now(),
+        proveedor_id = '0',
+        denominacion = '',
+        cuit = '',
+        iva = '',
+        saldo = '',
+        ar_subtotal = '0.00',
+        ar_descuento_taza = '0.000',
+        ar_descuento_monto = '0.00',
+        ar_iva105 = '0.00',
+        ar_iva210 = '0.00',
+        ar_iva270 = '0.00',
+        ar_total = '0.00',
+        created_at = new Date(),
+        updated_at = new Date() ) 
+        {
+            this.id = id,
+            this.estado = estado,
+            this.cbte_tipo = cbte_tipo,
+            this.cbte_tpv = cbte_tpv,
+            this.cbte_nro = cbte_nro,
+            this.cbte_fecha = cbte_fecha,
+            this.proveedor_id = proveedor_id,
+            this.denominacion = denominacion,
+            this.cuit = cuit,
+            this.iva = iva,
+            this.saldo = saldo,
+            this.ar_subtotal = ar_subtotal,
+            this.ar_descuento_taza = ar_descuento_taza,
+            this.ar_descuento_monto = ar_descuento_monto,
+            this.ar_iva105 = ar_iva105,
+            this.ar_iva210 = ar_iva210,
+            this.ar_iva270 = ar_iva270,
+            this.ar_total = ar_total,
+            this.created_at = created_at,
+            this.updated_at = updated_at
+        }
+}

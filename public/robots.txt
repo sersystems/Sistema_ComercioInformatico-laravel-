@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /index.php
+Disallow: /css/
+Disallow: /img/
+Disallow: /js/
+Sitemap: http://www.sersystems.tech/sitemap.xml
